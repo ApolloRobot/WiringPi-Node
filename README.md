@@ -5,13 +5,13 @@ Based on the awesome work of [Soarez](https://github.com/Soarez/node-wiring-pi)
 ## Install
 
 ```
-npm install wiring-pi
+npm install wiring-pi-apollo
 ```
 
 ## Usage
 
 ```javascript
-var wpi = require('wiring-pi');
+var wpi = require('wiring-pi-apollo');
 ```
 ## Documentation
 

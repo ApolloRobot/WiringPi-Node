@@ -1,7 +1,7 @@
 {
-  "name": "wiring-pi",
+  "name": "wiring-pi-apollo",
   "version": "2.2.1",
-  "description": "Bindings to wiringPi",
+  "description": "Bindings to wiringPi bananapi",
   "main": "lib/exports.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,10 +16,12 @@
     "gpio",
     "raspberry",
     "pi",
+    "bananapi",
+    "orangepi",
     "raspberrypi",
     "bcm2835"
   ],
-  "author": "Igor Soarez <igorsoarez@gmail.com>",
+  "author": "Igor Soarez <igorsoarez@gmail.com> &apollorobot(https://apollo.mnoiot.com/)",
   "contributors": [
     "Leandre Gohy <leandre.gohy@hexeo.be>",
     "Eugene Ware <eugene@noblesamurai.com>"
