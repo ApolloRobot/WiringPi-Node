@@ -15,6 +15,6 @@
  
 -LDFLAGS	= -L$(DESTDIR)$(PREFIX)/lib
 +LDFLAGS	= -L$(PWD)/../wiringPi -L$(PWD)/../devLib
- LIBS    = -lwiringPi -lwiringPiDev -lpthread -lm
+ LIBS    = -lwiringPi -lwiringPiDev -lpthread -lm -ldl
  
  # May not need to  alter anything below this line

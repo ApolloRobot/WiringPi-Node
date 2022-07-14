@@ -1,6 +1,6 @@
 {
   "name": "wiring-pi-apollo",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Bindings to wiringPi bananapi",
   "main": "lib/exports.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:WiringPi/WiringPi-Node.git"
+    "url": "https://github.com/ApolloRobot/WiringPi-Node.git"
   },
   "keywords": [
     "wiringPi",
