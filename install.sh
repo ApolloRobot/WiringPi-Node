@@ -40,7 +40,7 @@ rm ./install.log 2>/dev/null 1>&2
 
 echo -n "Cloning libWiringPi ... "
 rm -Rf ./wiringpi 2>/dev/null 1>&2
-git clone https://github.com/ApolloRobot/BPI-WiringPi2.git wiringpi 
+git clone https://gitee.com/apollorobot/BPI-WiringPi2.git wiringpi 
 check_git_clone
 #git submodule init
 #check_git_clone
