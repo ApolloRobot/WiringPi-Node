@@ -74,7 +74,7 @@ echo "done."
 
 echo -n "Making gpio utility ... "
 make clean >> ../../install.log 2>&1
-make >> ../../install.log 2>&1
+make -j5 PREFIX= >> ../../install.log 2>&1
 check_make_ok "gpio utility" 0
 echo "done."
 
